@@ -46,7 +46,7 @@ The following models were used:
   * Probabilistic classification
   * Works well with multiple symptom inputs
 
-### 📊 Evaluation Metrics
+### Evaluation Metrics
 
 * Accuracy
 * Precision
@@ -149,9 +149,6 @@ This project demonstrates how AI and data analytics can be used to build scalabl
 
 ---
 
-## 👥 Team
-
-* Sachita S Limaye
-* Abhiram Majeti
+## 👥 Team: APEX
 
 ---
