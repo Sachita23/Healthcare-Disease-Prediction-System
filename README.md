@@ -56,14 +56,6 @@ The following models were used:
 
 ---
 
-## Project Structure
-
-* `notebook/` → Google Colab implementation
-* `presentation/` → Project PPT
-* `results/` → Output screenshots and visualizations
-
----
-
 ##  Features
 
 ###  Symptom-Based Prediction
@@ -88,41 +80,15 @@ The following models were used:
 
 ---
 
-##  How to Run
-
-1. Open the notebook in Google Colab
-2. Run all cells sequentially
-3. View predictions and visualizations
-
----
-
 ##  Results
 
 ### 🔹 Prediction Output
 
-![Prediction](results/prediction_output.png)
+![Output1](output1.jpeg)
+![Output1](output2.jpeg)
+![Output1](output3.jpeg)
+![Output1](output4.jpeg)
 
-### 🔹 Dashboard Visualization
-
-![Dashboard](results/dashboard.png)
-
-### 🔹 Data Insights
-
-![Graphs](results/graphs.png)
-
----
-
-## 📓 Notebook
-
-(Add your Colab link here after upload)
-
----
-
-## Presentation
-
-Available in `/presentation` folder
-
----
 
 ## Challenges
 
