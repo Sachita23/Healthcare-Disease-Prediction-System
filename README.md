@@ -86,10 +86,10 @@ By analyzing extensive symptom-disease datasets, the system identifies meaningfu
 
 ### 🔹 Outputs
 
-![Output1](output1.jpg)
-![Output2](output2.jpg)
-![Output3](output3.jpg)
-![Output4](output4.jpg)
+![Output1](output1.jpeg)
+![Output2](output2.jpeg)
+![Output3](output3.jpeg)
+![Output4](output4.jpeg)
 
 ---
 
