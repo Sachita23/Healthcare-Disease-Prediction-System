@@ -1,52 +1,56 @@
-# AI-Based Symptom Checker & Disease Prediction Dashboard
+#  AI-Based Symptom Checker & Disease Prediction System using Big Data Analytics
 
-## Overview
+##  Overview
 
-This project presents an AI-driven healthcare system that predicts probable diseases based on user-provided symptoms and visualizes insights through an analytics dashboard.
+This project presents a data-driven healthcare solution that leverages machine learning and large-scale data analysis to predict probable diseases based on user-provided symptoms.
 
-The system leverages machine learning techniques to identify symptom-disease relationships and provide early-stage disease predictions, helping improve awareness and decision-making.
+By analyzing extensive symptom-disease datasets, the system identifies meaningful patterns and correlations, enabling early-stage disease awareness while also providing analytical insights through visualizations.
 
-> ⚠️ Note: This project was implemented using Google Colab and executed locally. Output screenshots are provided for reference.
+> ⚠️ Note: The implementation was carried out using Google Colab and executed locally. Outputs and results are demonstrated through screenshots and visualizations.
 
 ---
 
 ##  Objectives
 
-* Analyze large-scale healthcare dataset (~200,000 records)
-* Identify patterns between symptoms and diseases
-* Build machine learning models for disease prediction
-* Visualize trends and insights using dashboards
+* Analyze large-scale healthcare data (~200,000 records)
+* Identify relationships between symptoms and diseases
+* Build predictive models for disease classification
+* Generate insights using data visualization techniques
+* Design a scalable and user-centric healthcare solution
 
 ---
 
 ##  Technologies Used
 
-* Python
+* R
 * Google Colab
 * Pandas, NumPy
 * Matplotlib, Seaborn
 * Scikit-learn
-* Node JS
-* React JS
-* Frontend Framework
 
 ---
 
-##  Machine Learning Approach
+##  Methodology
 
-The following models were used:
+###  Data Processing
+
+* Data cleaning and preprocessing
+* Feature extraction and transformation
+* Handling synthetic and real-world datasets
+
+###  Machine Learning Models
 
 * **Decision Tree**
 
-  * Rule-based and interpretable
-  * Suitable for symptom-based branching
+  * Interpretable and rule-based
+  * Effective for symptom-based classification
 
 * **Naive Bayes**
 
-  * Probabilistic classification
-  * Works well with multiple symptom inputs
+  * Probabilistic approach
+  * Suitable for multi-symptom prediction scenarios
 
-### Evaluation Metrics
+###  Evaluation Metrics
 
 * Accuracy
 * Precision
@@ -56,26 +60,26 @@ The following models were used:
 
 ---
 
-##  Features
+##  Key Features
 
 ###  Symptom-Based Prediction
 
 * Accepts multiple symptoms as input
-* Predicts diseases with probability scores
-* Ranks results based on confidence
+* Predicts probable diseases with confidence scores
+* Provides ranked outputs based on likelihood
 
-###  Analytics Dashboard
+###  Data Analytics & Insights
 
-* Disease frequency analysis
-* Symptom importance visualization
-* Trend analysis using charts
-* Prediction statistics and insights
+* Disease frequency distribution
+* Symptom importance analysis
+* Pattern and trend visualization
+* Graphical representation of insights
 
 ---
 
 ##  Dataset
 
-* Public datasets from Kaggle and UCI ML Repository
+* Public datasets (Kaggle, UCI Repository)
 * Synthetic dataset generated using symptom-disease mappings
 
 ---
@@ -84,37 +88,35 @@ The following models were used:
 
 ### 🔹 Prediction Output
 
-![Output1](output1.jpeg)
-![Output1](output2.jpeg)
-![Output1](output3.jpeg)
-![Output1](output4.jpeg)
+![Prediction](results/prediction_output.png)
 
+### 🔹 Visual Insights
 
-## Challenges
-
-* Lack of real-world medical datasets
-* Synthetic data may introduce noise
-* Limited accuracy for rare diseases
-* Not a substitute for professional medical advice
+![Graphs](results/graphs.png)
 
 ---
 
-## Future Scope
+##  Challenges
 
-* Integrate real clinical datasets
-* Improve model accuracy with advanced algorithms
-* Add doctor consultation features
-* Deploy as a full-stack web application
-* Build mobile application (Android/iOS)
-
----
-
-## 🏁 Conclusion
-
-This project demonstrates how AI and data analytics can be used to build scalable healthcare solutions for early disease detection and awareness.
+* Limited availability of structured medical datasets
+* Noise in synthetic data affecting model accuracy
+* Difficulty in handling overlapping symptom conditions
+* System is advisory and not a substitute for medical diagnosis
 
 ---
 
-## 👥 Team: APEX
+##  Future Scope
+
+* Integration with real-world clinical datasets
+* Enhancement using advanced machine learning models
+* Real-time data integration and scalability improvements
+* Development of a full-stack application interface
+* Mobile application deployment
+
+---
+
+##  Conclusion
+
+This project demonstrates how combining machine learning with data analysis can create impactful healthcare solutions. It highlights the potential of transforming raw data into meaningful insights while enabling accessible and scalable early disease prediction systems.
 
 ---
