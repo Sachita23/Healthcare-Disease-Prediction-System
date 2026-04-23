@@ -24,9 +24,7 @@ By analyzing extensive symptom-disease datasets, the system identifies meaningfu
 
 * R
 * Google Colab
-* Pandas, NumPy
-* Matplotlib, Seaborn
-* Scikit-learn
+* Visualisations
 
 ---
 
