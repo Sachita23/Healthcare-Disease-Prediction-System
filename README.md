@@ -84,13 +84,12 @@ By analyzing extensive symptom-disease datasets, the system identifies meaningfu
 
 ##  Results
 
-### 🔹 Prediction Output
+### 🔹 Outputs
 
-![Prediction](results/prediction_output.png)
-
-### 🔹 Visual Insights
-
-![Graphs](results/graphs.png)
+![Output1](output1.jpg)
+![Output2](output2.jpg)
+![Output3](output3.jpg)
+![Output4](output4.jpg)
 
 ---
 
