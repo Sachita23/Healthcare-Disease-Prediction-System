@@ -1,54 +1,86 @@
-#  AI-Based Symptom Checker & Disease Prediction System using Big Data Analytics
 
-##  Overview
+# AI-Based Symptom Checker & Disease Prediction System using Data Warehousing and Big Data Analytics
 
-This project presents a data-driven healthcare solution that leverages machine learning and large-scale data analysis to predict probable diseases based on user-provided symptoms.
+## Overview
 
-By analyzing extensive symptom-disease datasets, the system identifies meaningful patterns and correlations, enabling early-stage disease awareness while also providing analytical insights through visualizations.
+This project presents a data-driven healthcare solution that leverages machine learning, cloud-based data warehousing, and large-scale data analytics to predict probable diseases based on user-provided symptoms.
 
-> ⚠️ Note: The implementation was carried out using Google Colab and executed locally. Outputs and results are demonstrated through screenshots and visualizations.
+The system integrates structured data storage, scalable processing, and analytical modeling to identify meaningful symptom-disease relationships. It enables early-stage disease awareness while delivering insights through visual analytics.
+
+> ⚠️ Note: Model development was performed using Google Colab, while data warehousing and storage operations were implemented using Microsoft Azure services.
 
 ---
 
-##  Objectives
+## Objectives
 
-* Analyze large-scale healthcare data (~200,000 records)
+* Analyze large-scale healthcare datasets (~200,000+ records)
+* Design and implement a cloud-based data warehousing solution
 * Identify relationships between symptoms and diseases
-* Build predictive models for disease classification
-* Generate insights using data visualization techniques
-* Design a scalable and user-centric healthcare solution
+* Build predictive machine learning models
+* Generate insights using big data analytics and visualization techniques
+* Develop a scalable and efficient healthcare analytics system
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
-* R
-* Google Colab
-* Visualisations
+* R (Machine Learning & Analysis)
+* Google Colab (Model Development)
+* Microsoft Azure (Data Warehousing)
+* Data Visualization Tools
 
 ---
 
-##  Methodology
+## Methodology
 
-###  Data Processing
+### Data Warehousing (Azure Implementation)
 
-* Data cleaning and preprocessing
-* Feature extraction and transformation
-* Handling synthetic and real-world datasets
+A cloud-based data warehousing approach was used to efficiently store and manage large healthcare datasets.
 
-###  Machine Learning Models
+* Data was structured and stored using **Azure SQL Database**
+* Data ingestion and management were handled through Azure tools
+* Query Editor and SQL operations were used for:
+
+  * Data cleaning
+  * Transformation
+  * Aggregation
+* Schema design ensured efficient querying and analytics
+* Enabled scalable storage and faster data retrieval
+
+This layer ensured proper organization of structured healthcare data before applying analytics and machine learning models.
+
+---
+
+### Data Processing & Big Data Analytics
+
+* Data cleaning and preprocessing performed on large datasets
+* Feature extraction and transformation for symptom representation
+* Handling both real-world and synthetic datasets
+* Analytical operations performed to identify:
+
+  * Symptom frequency patterns
+  * Disease correlations
+  * Trend distributions
+
+Big Data Analytics techniques were applied to extract meaningful insights from high-volume healthcare data.
+
+---
+
+### Machine Learning Models
 
 * **Decision Tree**
 
-  * Interpretable and rule-based
-  * Effective for symptom-based classification
+  * Interpretable and rule-based classification
+  * Effective for symptom-driven predictions
 
 * **Naive Bayes**
 
-  * Probabilistic approach
-  * Suitable for multi-symptom prediction scenarios
+  * Probabilistic model
+  * Suitable for multi-symptom scenarios
 
-###  Evaluation Metrics
+---
+
+### Evaluation Metrics
 
 * Accuracy
 * Precision
@@ -58,33 +90,33 @@ By analyzing extensive symptom-disease datasets, the system identifies meaningfu
 
 ---
 
-##  Key Features
+## Key Features
 
-###  Symptom-Based Prediction
+### Symptom-Based Prediction
 
 * Accepts multiple symptoms as input
 * Predicts probable diseases with confidence scores
 * Provides ranked outputs based on likelihood
 
-###  Data Analytics & Insights
+### Data Analytics & Insights
 
 * Disease frequency distribution
 * Symptom importance analysis
 * Pattern and trend visualization
-* Graphical representation of insights
+* Graphical representation of healthcare insights
 
 ---
 
-##  Dataset
+## Dataset
 
 * Public datasets (Kaggle, UCI Repository)
 * Synthetic dataset generated using symptom-disease mappings
 
 ---
 
-##  Results
+## Results
 
-### 🔹 Outputs
+### Outputs
 
 ![Output1](output1.jpeg)
 ![Output2](output2.jpeg)
@@ -93,27 +125,31 @@ By analyzing extensive symptom-disease datasets, the system identifies meaningfu
 
 ---
 
-##  Challenges
+## Challenges
 
 * Limited availability of structured medical datasets
 * Noise in synthetic data affecting model accuracy
-* Difficulty in handling overlapping symptom conditions
+* Handling overlapping symptom conditions
+* Data integration challenges in warehousing layer
 * System is advisory and not a substitute for medical diagnosis
 
 ---
 
-##  Future Scope
+## Future Scope
 
-* Integration with real-world clinical datasets
-* Enhancement using advanced machine learning models
-* Real-time data integration and scalability improvements
-* Development of a full-stack application interface
-* Mobile application deployment
+* Integration with real-world clinical and hospital datasets
+* Use of advanced models (Deep Learning, Ensemble Methods)
+* Real-time data streaming and analytics
+* Enhancement of Azure-based data pipelines
+* Full-stack web and mobile application deployment
+
+---
+
+## Conclusion
+
+This project demonstrates the integration of **data warehousing, big data analytics, and machine learning** to build a scalable healthcare prediction system.
+
+The use of cloud-based warehousing (Azure) ensures efficient data management, while big data analytics enables extraction of meaningful insights from large datasets. Together, these technologies highlight how modern data-driven approaches can transform healthcare systems into more intelligent and accessible solutions.
 
 ---
 
-##  Conclusion
-
-This project demonstrates how combining machine learning with data analysis can create impactful healthcare solutions. It highlights the potential of transforming raw data into meaningful insights while enabling accessible and scalable early disease prediction systems.
-
----
