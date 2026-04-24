@@ -118,10 +118,10 @@ Big Data Analytics techniques were applied to extract meaningful insights from h
 
 ### Outputs
 
-![Output1](output1.jpeg)
-![Output2](output2.jpeg)
-![Output3](output3.jpeg)
-![Output4](output4.jpeg)
+![Output1](Outputs/output1.jpeg)
+![Output2](Outputs/output2.jpeg)
+![Output3](Outputs/output3.jpeg)
+![Output4](Outputs/output4.jpeg)
 
 ---
 
